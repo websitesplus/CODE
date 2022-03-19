@@ -1,0 +1,46 @@
+// Out-of-scope content handling
+
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+
+	<style type="text/css">
+
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: #00cc66;
+			margin-right: 100px;
+			float: left;
+		}
+
+		#div1{
+			overflow: auto;    //More than some browsers solve by themselves
+		}
+		#div2{
+			overflow: visible;   //Exceeded part is displayed by itself
+
+		}
+
+		#div3{
+			overflow: hidden;   //Cut off the excess
+		}
+
+	</style>
+
+ </head>
+
+ <body>
+
+	<div id="div1">Life comes in a package. This package includes happiness and sorrow, failure and success, hope and despair. Life is a learning process. Experiences in life teach us new lessons and make us a better person. With each passing day we learn to handle various situations.</div>
+	<div id="div2">Life comes in a package. This package includes happiness and sorrow, failure and success, hope and despair. Life is a learning process. Experiences in life teach us new lessons and make us a better person. With each passing day we learn to handle various situations.</div>
+	<div id="div3">Life comes in a package. This package includes happiness and sorrow, failure and success, hope and despair. Life is a learning process. Experiences in life teach us new lessons and make us a better person. With each passing day we learn to handle various situations.</div>
+ </body>
+
+</html>
