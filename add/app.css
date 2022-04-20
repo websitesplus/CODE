@@ -1,1 +1,9 @@
+// refer to https://github.com/Baciur/TypeScriptSamples/blob/master/amd/app.css
+body
+{
+    font-family: 'Segoe UI', sans-serif
+}
 
+span {
+    font-style: italic
+}
