@@ -1,4 +1,4 @@
-// refer to https://github.com/Baciur/TypeScriptSamples/edit/master/simple/README.md
+
 
 # TypeScript Sample: Simple 
 
